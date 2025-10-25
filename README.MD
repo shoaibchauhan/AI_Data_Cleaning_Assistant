@@ -48,16 +48,16 @@ A simple FastAPI application to clean uploaded CSV files using an AI-powered cle
 
 ## Usage
 
-1. Activate virtual environment
-```bash.
+# Activate the virtual environment
 venv\Scripts\activate
 
-
-2. Start the server:
-```bash
+# Start the server
 uvicorn main:app --reload
 
-3. Use Swagger Docs to test the API (update the URL according to your local host and port).
-```bash
+# Use Swagger Docs to test the API (update the URL according to your local host and port)
 http://127.0.0.1:8000/docs
+
+# Note:
+# If your FastAPI server runs on a different port, replace 8000 with the actual port number (e.g., http://127.0.0.1:8080/docs)
+# You can also access the ReDoc documentation at http://127.0.0.1:8000/redoc
 
