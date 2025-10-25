@@ -48,6 +48,16 @@ A simple FastAPI application to clean uploaded CSV files using an AI-powered cle
 
 ## Usage
 
-1. Start the server:
+1. Activate virtual environment
+```bash.
+venv\Scripts\activate
+
+
+2. Start the server:
 ```bash
 uvicorn main:app --reload
+
+3. Use Swagger Docs to test the API (update the URL according to your local host and port).
+```bash
+http://127.0.0.1:8000/docs
+
